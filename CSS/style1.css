@@ -1,0 +1,29 @@
+h1
+{text-align: center;}
+
+.flex-container
+{width: 700px;
+    height: 300px;
+display: flex;
+background-color: grey;
+margin: auto;
+justify-content: center
+}
+
+.flex-container > div
+{
+background-color: red; 
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+width: 30px ;
+height: 50px ;
+}
+
+#cinco
+{background-color: blue; 
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px ;
+    height: 50px ;}

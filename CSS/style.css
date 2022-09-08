@@ -1,0 +1,74 @@
+.container
+{
+    display: flex;
+    width: 80% ;
+    height: 500px ;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#uno,#dos,#tres
+{
+width: 320px;
+height: 480px;
+background-color: lightgrey;
+border-radius: 10px;
+box-shadow: 10px 10px 10px #999;
+
+}
+
+#dos
+{
+align-self: center
+}
+
+img
+{border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom: solid red 2px;}
+
+p
+{
+padding: 10px;   
+text-align: justify; 
+}
+
+.BotonRojo
+{
+   background-color: red; 
+   border:none;
+   text-decoration: none;
+   text-align: center;
+   font-size: 12px;
+   padding: 15px 32px;
+   margin-left:20px ;
+   color: white;
+}
+
+.BotonRojo:hover
+{
+   background-color: coral; 
+   color: blueviolet;
+}
+
+.BotonVerde
+{
+   margin-left: 15px; 
+   background-color: rgb(17, 255, 0); 
+   border:none;
+   text-decoration: none;
+   text-align: center;
+   font-size: 12px;
+   padding: 15px 32px;
+   color: white;
+}
+
+.BotonVerde:hover
+{
+   background-color: lightgreen;
+   color:blue
+}
+
+h1
+{text-align: ;}
